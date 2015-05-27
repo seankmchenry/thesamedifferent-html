@@ -104,6 +104,8 @@ html {
 body {
     font-family: Inconsolata, 'Courier New', Courier, sans-serif;
     font-size: 1.0em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .main-container {
     display: block;
