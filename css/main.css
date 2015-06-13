@@ -126,6 +126,22 @@ body {
     margin-top: 0;
     line-height: 1.0;
 }
+
+
+#preview {
+    background: url('../img/loading.gif') center left no-repeat;
+    width: 100%;
+    min-height: 32px;
+}
+#preview img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+
+
 .social {
     list-style-type: none;
     padding: 0;
@@ -148,17 +164,12 @@ body {
     }
     .main {
         padding: 75px 100px;
+        text-align: center;
+    }
+    #preview {
+    	background-position: center center;
     }
 }
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
