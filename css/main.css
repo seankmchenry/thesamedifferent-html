@@ -6,6 +6,9 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+/* Fontello */
+@import url('fontello.css');
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -149,6 +152,18 @@ body {
 .social li {
     margin-bottom: 0.25em;
 }
+.social a {
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.social a:hover {
+    color: #005900;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
 
 /* 768px */
 @media only screen and (min-width: 768px) {
@@ -164,7 +179,6 @@ body {
     }
     .main {
         padding: 75px 100px;
-        text-align: center;
     }
     #preview {
     	background-position: center center;
